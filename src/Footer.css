@@ -1,0 +1,51 @@
+.footer-container {
+    padding: 5rem 0;
+}
+
+.footer-container {
+    background: var(--mainBlack);
+    text-align: center;
+}
+
+.contacts {
+    width: 90vw;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(255px, 1fr));
+    grid-row-gap: 2rem;
+    grid-column-gap: 50px;
+}
+
+.contact span {
+    display: inline-block;
+    color: var(--primaryColor);
+    font-size: 2.5rem;
+    margin-bottom: 1.5rem;
+}
+
+.contact h6 {
+    color: var(--mainWhite);
+    letter-spacing: var(--mainSpacing);
+    text-transform: capitalize;
+}
+
+.footer-text {
+    display: flex;
+    text-align: center;
+    align-items: center;
+    color: #fff;
+    font-weight: 500;
+}
+
+@media screen and (min-width: 992px) {
+    .contacts {
+      width: 95vw;
+      max-width: 1170px;
+    }
+}
+  
+@media screen and (min-width: 1200px) {
+    .footer-container p {
+      width: 100%;
+    }
+}

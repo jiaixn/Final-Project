@@ -1,0 +1,106 @@
+.functionContainer {
+    padding: 5rem 0;
+}
+
+.facilities {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+.facility {
+    width: 80vw;
+    display: grid;
+    grid-template-columns: 1fr;
+    grid-template-rows: 1fr 1fr;
+    margin: 2rem auto;
+}
+
+.description {
+    margin: 1rem 0;
+}
+
+.description h3,
+.description h6{
+    text-transform: capitalize;
+    letter-spacing: var(--mainSpacing);
+}
+
+.description h6{
+    font-weight: 300;
+}
+
+@media screen and (min-width: 992px) {
+    .facilities {
+      width: 95vw;
+      max-width: 1170px;
+    }
+
+    .facility {
+        width: 95vw;
+        max-width: 1170px;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        grid-template-rows: 1fr;
+        grid-column-gap: 2rem;
+    }
+
+    .description {
+      padding-left: 3rem;
+    }
+}
+
+.f-conf {
+    background-image: url("./image/f-conf.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-conres {
+    background-image: url("./image/f-conres.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-gym {
+    background-image: url("./image/f-gym.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-meeting {
+    background-image: url("./image/f-meeting.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-spa {
+    background-image: url("./image/f-spa.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-sushi {
+    background-image: url("./image/f-sushi.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.f-swimp {
+    background-image: url("./image/f-swimp.jpg");
+    background-position-x: center;
+    background-position-y: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

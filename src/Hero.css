@@ -1,0 +1,29 @@
+.defaultHero,
+.roomsHero,
+.functionHero{
+  min-height: calc(100vh - 66px);
+  background: url("./image/defaultBcg.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.roomsHero {
+  background: url("./image/room-2.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  min-height: 60vh;
+}
+
+.functionHero {
+  background: url("./image/room-1.jpg");
+  background-position-x: center;
+  background-position-y: center;
+  background-size: cover;
+  min-height: 60vh;
+}

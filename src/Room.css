@@ -1,0 +1,86 @@
+.room {
+    transition: var(--mainTransition);
+    cursor: pointer;
+    border-radius: var(--radius);
+    overflow: hidden;
+    border: 1px solid var(--mainGrey);
+}
+  
+.room:hover {
+    box-shadow: var(--lightShadow);
+    transform: translateY(-1rem);
+}
+  
+.img-container {
+    position: relative;
+}
+  
+.img-container img {
+    border-radius: var(--radius);
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius: 0;
+    width: 100%;
+    display: block;
+    transition: var(--mainTransition);
+}
+
+.price-top {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: var(--primaryColor);
+    color: var(--mainWhite);
+    padding: 0.3rem 0.6rem 0.5rem;
+    border-bottom-right-radius: 1rem;
+    font-size: 0.5rem;
+    text-align: center;
+    transition: var(--mainTransition);
+}
+
+.price-top h6 {
+    margin-bottom: 0;
+    font-size: 0.9rem;
+    font-weight: 300;
+    letter-spacing: var(--mainSpacing);
+}
+
+.room-link {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: all 0.15s linear;
+}
+
+.img-container:hover {
+    background: var(--mainGrey);
+}
+
+.room:hover img {
+    opacity: 0.3;
+}
+
+.room:hover .price-top {
+    opacity: 0;
+}
+
+.room:hover .room-link {
+    opacity: 1;
+}
+
+.room-info {
+    background: var(--mainWhite);
+    text-transform: capitalize;
+    padding: 0.8rem 0;
+    text-align: center;
+    font-weight: 700;
+    color: var(--darkGrey);
+    border-radius: var(--radius);
+    border-top-right-radius: 0;
+    border-top-left-radius: 0;
+}
+
